@@ -1,3 +1,6 @@
 body{
-    background-color: springgreen;
+    background: #FC3FD7;
+background: -webkit-radial-gradient(top left, #FC3FD7, #E3A910);
+background: -moz-radial-gradient(top left, #FC3FD7, #E3A910);
+background: radial-gradient(to bottom right, #FC3FD7, #E3A910);
 }

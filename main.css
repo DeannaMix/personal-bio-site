@@ -1,6 +1,148 @@
-body{
-    background: #FC3FD7;
-background: -webkit-radial-gradient(top left, #FC3FD7, #E3A910);
-background: -moz-radial-gradient(top left, #FC3FD7, #E3A910);
-background: radial-gradient(to bottom right, #FC3FD7, #E3A910);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(136, 167, 250);
+    width: 100%;
+}
+
+.logo {
+    padding: 2em 0em;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    background-color: #333;
+    line-height: 80%;
+    font-size: 36px;
+}
+
+.logo a{
+    color: rgb(250, 232, 252);
+}
+
+.navigation ul {
+   list-style: none;
+   text-transform: uppercase; 
+   display: flex;
+   justify-content: center;
+   padding: 1.5em 0;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    letter-spacing: .45em;
+}
+
+
+.navigation ul a {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+.navigation ul a:hover {
+    background: rgb(93, 133, 206);
+    opacity: 0.7;
+}
+
+footer {
+    display: flex;
+    justify-content: first baseline
+}
+
+.list {
+    width: 30%;
+}
+
+.list ul {
+    padding-top: 1.5em;
+    padding-right: 3em;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.list li {
+    position: relative;
+    padding: .80em 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.list li:last-child {
+    border-bottom: none;
+}
+
+.listtitle {
+    color: rgb(93, 133,206);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: .20em;
+}
+
+.body  {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.bodytitle {
+    font-size: 30px;
+    color: rgb(93, 133, 206);
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: .20em;
+    text-transform: uppercase;
+    
+}
+
+.bodytitlesmall {
+    padding-bottom:1.5em;
+    font-size: .90em;
+    color: lightslategray;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.primary-content {
+    display: flex;
+    padding: 74px;
+}
+
+p {
+    line-height:190%;
+}
+
+.profiles {
+    display: flex;
+    background-color: #333;
+    padding: 6em;
+    color: whitesmoke;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-size: 19.2px;
+    letter-spacing: 3px;
 }

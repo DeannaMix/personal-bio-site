@@ -56,11 +56,6 @@ body {
     opacity: 0.7;
 }
 
-footer {
-    display: flex;
-    justify-content: first baseline
-}
-
 .list {
     width: 30%;
 }
@@ -151,17 +146,28 @@ p {
     display: flex;
     margin-top: 2em;
     align-content: center;
-}
-
-.technology-names {
-    display: flex;
-    align-content: center;
-    position: relative;
+    margin-bottom: 1em;
 }
 
 .tech-pics {
-    display: flex;
-    align-content: space-between;
-    height: 200px;
-    width: 100px;
+    height: 10%;
+    width: 10%;
 }
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    align-content: space-between;
+}
+
+.footer h1 {
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-content: flex-end;
+}
+

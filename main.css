@@ -143,31 +143,54 @@ p {
 }
 
 .footer {
+    background: rgb(93, 133, 206);
     display: flex;
-    margin-top: 2em;
-    align-content: center;
-    margin-bottom: 1em;
+    flex-direction: column;
+    align-items: center;
 }
 
-.tech-pics {
-    height: 10%;
-    width: 10%;
+.tech-logos {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.tech-logos img {
+    height: 30%;
+    width: 30%;
+}
+
+.tech-logos li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer ul {
     display: flex;
     flex-direction: row;
-    margin-top: 2em;
+    margin-top: 1em;
     align-content: space-between;
+    list-style: none;
 }
 
 .footer h1 {
     display: flex;
     align-items: center;
+    padding-bottom: 1em;
+    font-family: sans-serif;
+    font-size: 36px;
+    color:whitesmoke;
+    text-decoration: underline;
 }
 
 .contact {
     display: flex;
+    flex-direction: column;
     align-content: flex-end;
+    padding-top: 2em;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 

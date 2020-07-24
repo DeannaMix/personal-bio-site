@@ -146,3 +146,22 @@ p {
     font-size: 19.2px;
     letter-spacing: 3px;
 }
+
+.footer {
+    display: flex;
+    margin-top: 2em;
+    align-content: center;
+}
+
+.technology-names {
+    display: flex;
+    align-content: center;
+    position: relative;
+}
+
+.tech-pics {
+    display: flex;
+    align-content: space-between;
+    height: 200px;
+    width: 100px;
+}

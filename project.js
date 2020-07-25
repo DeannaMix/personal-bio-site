@@ -22,7 +22,7 @@ const buildProjects = () => {
     for(let i = 0; i < projects.length; i++){
         if (projects[i].available){
             domString+=`<div class="projectCards">
-                          <img src="${projects[i].screenshot}" alt="${projects[i].title}" class="projectimage">
+                          <img src="${projects[i].screenshot}" alt="${projects[i].title}" class="projectimage"/>
                           <div class="details">
                            <h1 class="title">${projects[i].title}</h1>
                            <p class="description">${projects[i].description}</p>
